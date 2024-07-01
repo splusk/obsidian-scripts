@@ -1,0 +1,23 @@
+div[alt ~="icon"] {
+  display: contents;
+}
+img[alt ~="icon"] {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 1px;
+  margin-right: 2px;
+  vertical-align: text-bottom;
+  white-space: nowrap;
+  /* background-image: url(../../attachments/google-doc-icon.png); */
+}
+.markdown-preview-sizer.markdown-preview-section img[alt ~="icon"] {
+  margin-bottom: 3px;
+}
+.markdown-preview-sizer.markdown-preview-section div p {
+  display: inline-block;
+}
+.markdown-preview-sizer.markdown-preview-section div p .external-link {
+  background-image: none;
+  padding-right: 2px;
+  /* vertical-align: text-bottom; */
+}

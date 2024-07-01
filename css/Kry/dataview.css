@@ -1,0 +1,73 @@
+/* css for icons and links without link color */
+.dataview.table-view-table tr td:first-child .markdown-rendered.internal-link span p {
+    color: white;
+    display: contents;
+}
+.dataview.table-view-table tr td:first-child .markdown-rendered.internal-link span {
+    color: white;
+}
+.dataview.table-view-table tr td:first-child .markdown-rendered.internal-link img[alt ~="icon"] {
+    /* margin-left: 4px; */
+    white-space: nowrap;
+}
+/* first column */
+.table-view-th:first-child {
+    max-width: 50% !important;
+    width: 50% !important;
+    min-width: 50% !important;
+}
+/* last column */
+.table-view-th:last-child {
+    max-width: 15% !important;
+    width: 15% !important;
+    min-width: 15% !important;
+}
+.dataview-table-search-input {
+    float: right;
+    margin-bottom: 10px;
+}
+.dataview-table-search-div {
+    margin-bottom: 25px;
+    display: flex;
+}
+.tasklist-divider {
+    margin-top: 25px !important;
+}
+.overdue-task {
+    color: var(--red);
+}
+.not-overdue-task {
+    color: var(--frost3);
+}
+.task-in-progress span {
+    color: var(--yellow) !important;
+    /* font-weight: bold; */
+    opacity: 0.6;
+}
+.task-in-progress span p {
+    color: var(--yellow) !important;
+    /* font-weight: bold; */
+    opacity: 0.6;
+}
+.task-has-due-date {
+    font-style: italic;
+}
+.task-is-important span {
+    /* color: var(--frost1) !important; */
+    /* font-size: medium; */
+    opacity: 1;
+    font-weight: bold;
+}
+.task-is-important span p {
+    /* color: var(--frost1) !important; */
+    /* font-size: medium; */
+    opacity: 1;
+    font-weight: bold;
+}
+/* Hide stuff from Tasklist due to formatting */
+.dataview.table-view-table span a img[alt ^="img-"] {
+    display: none;
+}
+.dataview.table-view-table span a ul {
+    display: none;
+}

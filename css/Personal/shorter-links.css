@@ -1,0 +1,25 @@
+div:not(.cm-active).cm-line .cm-string.cm-url:not(.cm-formatting) {
+    font-size: 0;
+}
+div:not(.cm-active).cm-line .cm-string.cm-url:not(.cm-formatting)::after {
+    content: '»';
+    font-size: 1rem;
+    display: contents;
+}
+div:not(.cm-active).cm-line .cm-link + .cm-url:not(.cm-formatting) {
+    font-size: 0;
+}
+div:not(.cm-active).cm-line .cm-link + .cm-url:not(.cm-formatting)::after {
+    content: '»';
+    font-size: 1rem;
+    display: contents;
+}
+div:not(.cm-active).cm-line .cm-url:not(.cm-formatting):not(.cm-string):not(:has(+ .cm-link)) {
+    /* display: inline-flex; */
+    display: inline-block;
+    max-width: 255px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
