@@ -67,3 +67,6 @@
     text-decoration: line-through !important;
     opacity: 50%;
 }
+.tasklist-divider {
+    margin: 1px;
+}

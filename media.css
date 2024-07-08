@@ -31,3 +31,11 @@ div[alt ~="pdf-50"] {
   width: 50% !important;
   height: 550px !important;
 }
+img {
+  width: 100px;
+}
+img:hover {
+  display: inline-flex;
+  width: 100% !important;
+  height: 100% !important;
+}
