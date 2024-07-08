@@ -21,6 +21,7 @@ img[alt ^="img-"]:hover {
   display: inline-flex;
   width: 100% !important;
   height: 100% !important;
+  transition: 1s;
 }
 div[alt ~="pdf-25"] {
   width: 25% !important;
@@ -38,4 +39,23 @@ div[alt ^="pdf-"]:hover {
   display: inline-flex;
   width: 100% !important;
   height: 100% !important;
+}
+img {
+  width: 100px;
+}
+img:hover {
+  display: inline-flex;
+  width: 100% !important;
+  height: 100% !important;
+  transition: 1s;
+}
+img[alt ^="pdf-"] {
+  width: 100px !important;
+  height: 100px !important;
+}
+img[alt ^="pdf-"]:hover {
+  display: inline-flex;
+  width: 100% !important;
+  height: 100% !important;
+  transition: 1s;
 }

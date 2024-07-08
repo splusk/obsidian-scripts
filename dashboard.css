@@ -57,6 +57,14 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     overflow-y: clip;
 }
 
+.dashboard div > ul > li > span > a {
+    background-image: none;
+    padding-inline-end: 0px;
+}
+.dashboard div > ul > li > span > div[alt ~="icon"] {
+    display: contents;
+}
+
 /* Dataview support */
 .dashboard ul.dataview {
     row-gap: 0px !important;
